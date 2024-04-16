@@ -5,7 +5,8 @@ body{
     background-color: darkcyan;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:center;
+    
 }
 
 #btn1{
@@ -19,16 +20,63 @@ font-weight: bold;
 
 }
 #btn2{
-
-
+    background-color: rgb(144, 238, 144);
+    width: 200px;
+    height: 70px;
+    border-width: 2px;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 #btn3{
+    background-color: rgb(153, 144, 238);
+    width: 200px;
+    height: 70px;
+    border-width: 2px;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
 
+#btn4{
+    background-color: rgb(238, 144, 216);
+    width: 200px;
+    height: 70px;
+    border-width: 2px;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
 
+#btn5{
+    background-color: rgb(238, 144, 146);
+    width: 200px;
+    height: 70px;
+    border-width: 2px;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: bold;
 }
 #btn1:hover{
     background-color: rgb(105, 105, 239);
     color: white;
+}
+#btn2:hover{
+    background-color: rgb(50, 238, 100);
+    color:white;
+}
 
+#btn3:hover{
+    background-color: rgb(50, 144, 238);
+    color:white;
+}
+#btn4:hover{
+    background-color: rgb(238, 50, 160);
+    color:white;
+}
+
+#btn5:hover{
+    background-color: rgb(238, 50, 50);
+    color:white;
 }
