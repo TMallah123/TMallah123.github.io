@@ -9,4 +9,6 @@
     audio4.src="highground.mp3";
     const audio5 = new Audio();
     audio5.src="Uncivilized.mp3";
+    const audio6 = new Audio();
+    audio6.src="Jarvis.mp3";
 
