@@ -3,23 +3,30 @@
 }
 body{
     background-color: darkcyan;
-    display: flex;
-    justify-content: center;
-    align-items:center;
+    padding-left:20px;
     
 }
-
+.button-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-column-gap: 7px;
+    grid-row-gap: 7px;
+  }
 #btn1{
-background-color: lightblue;
-width: 200px;
-height: 70px;
-border-width: 2px;
-border-radius: 20px;
-font-size: 25px;
-font-weight: bold;
+    margin-bottom: 10px;
+    margin-right:5px;
+    background-color: lightblue;
+    width: 200px;
+    height: 70px;
+    border-width: 2px;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: bold;
 
 }
 #btn2{
+    margin-bottom: 10px;
+    margin-right:5px;
     background-color: rgb(144, 238, 144);
     width: 200px;
     height: 70px;
@@ -30,6 +37,8 @@ font-weight: bold;
 }
 
 #btn3{
+    margin-bottom: 10px;
+    margin-right:5px;
     background-color: rgb(153, 144, 238);
     width: 200px;
     height: 70px;
@@ -40,6 +49,8 @@ font-weight: bold;
 }
 
 #btn4{
+    margin-bottom: 10px;
+    margin-right:5px;
     background-color: rgb(238, 144, 216);
     width: 200px;
     height: 70px;
@@ -50,6 +61,8 @@ font-weight: bold;
 }
 
 #btn5{
+    margin-bottom: 10px;
+    margin-right:5px;
     background-color: rgb(238, 144, 146);
     width: 200px;
     height: 70px;
@@ -58,6 +71,19 @@ font-weight: bold;
     font-size: 25px;
     font-weight: bold;
 }
+
+#btn6{
+    margin-bottom: 10px;
+    margin-right:5px;
+    background-color: rgb(238, 208, 144);
+    width: 200px;
+    height: 70px;
+    border-width: 2px;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
 #btn1:hover{
     background-color: rgb(105, 105, 239);
     color: white;
@@ -78,5 +104,10 @@ font-weight: bold;
 
 #btn5:hover{
     background-color: rgb(238, 50, 50);
+    color:white;
+}
+
+#btn6:hover{
+    background-color: rgb(238, 147, 50);
     color:white;
 }
