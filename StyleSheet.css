@@ -77,7 +77,7 @@ body{
 }
 
 #btn7{
-    background-color: rgb(238, 208, 144);
+    background-color: rgb(238, 144, 144);
     width: 200px;
     height: 70px;
     border-width: 2px;
@@ -87,7 +87,7 @@ body{
 }
 
 #btn8{
-    background-color: rgb(238, 208, 144);
+    background-color: rgb(210, 144, 238);
     width: 200px;
     height: 70px;
     border-width: 2px;
@@ -188,12 +188,12 @@ body{
 }
 
 #btn7:hover{
-    background-color: rgb(238, 147, 50);
+    background-color: rgb(238, 50, 50);
     color:white;
 }
 
 #btn8:hover{
-    background-color: rgb(238, 147, 50);
+    background-color: rgb(203, 50, 238);
     color:white;
 }
 

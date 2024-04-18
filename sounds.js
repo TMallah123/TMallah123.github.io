@@ -11,4 +11,5 @@
     audio5.src="Uncivilized.mp3";
     const audio6 = new Audio();
     audio6.src="Jarvis.mp3";
-
+    const audio7 = new Audio();
+    audio7.src="Yolo.mp3";
